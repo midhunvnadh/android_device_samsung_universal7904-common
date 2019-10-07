@@ -62,9 +62,9 @@ PRODUCT_PACKAGES += \
     fastbootd \
     init.recovery.exynos7904.rc
 
-# SamsungDoze
+# SamsungParts
 PRODUCT_PACKAGES += \
-    SamsungDoze
+    SamsungParts
 
 # Sensors
 PRODUCT_PACKAGES += \

@@ -39,6 +39,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.lmk.use_minfree_levels=true \
     ro.lmk.log_stats=true
 
+# Tones
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.config.notification_sound=Argon.ogg \
+    ro.config.alarm_alert=Hassium.ogg \
+    ro.config.ringtone=Orion.ogg
+
 # VNDK
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.vndk.lite=false

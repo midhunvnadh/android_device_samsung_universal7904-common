@@ -51,15 +51,15 @@
                 </devicePort>
                 <devicePort tagName="Bt Sco" role="sink" type="AUDIO_DEVICE_OUT_BLUETOOTH_SCO">
                    <profile name="" format="AUDIO_FORMAT_PCM_16_BIT"
-                            samplingRates="48000" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
+                            samplingRates="8000,16000,48000" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
                 </devicePort>
                 <devicePort tagName="Bt Sco Headset" role="sink" type="AUDIO_DEVICE_OUT_BLUETOOTH_SCO_HEADSET">
                    <profile name="" format="AUDIO_FORMAT_PCM_16_BIT"
-                            samplingRates="48000" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
+                            samplingRates="8000,16000,48000" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
                 </devicePort>
                 <devicePort tagName="Bt Sco Car Kit" role="sink" type="AUDIO_DEVICE_OUT_BLUETOOTH_SCO_CARKIT">
                    <profile name="" format="AUDIO_FORMAT_PCM_16_BIT"
-                            samplingRates="48000" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
+                            samplingRates="8000,16000,48000" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
                 </devicePort>
                 <!-- Input devices declaration, i.e. source DEVICE PORT -->
                 <devicePort tagName="Built-In Mic" type="AUDIO_DEVICE_IN_BUILTIN_MIC" role="source">

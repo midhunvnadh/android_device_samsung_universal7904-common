@@ -163,17 +163,30 @@
 		<ctl name="ABOX BT SCO MIC Enable" value="1" />
 	</path>
 
-	<!-- Set bt sampling rate -->
+	
+<!-- Set bt sampling rate -->
 	<path name="set-bt-sco-rx-rate-nb">
+		<ctl name="ABOX Sampling Rate Out2" value="8000" />
+		<ctl name="ABOX Sampling Rate Inmux0" value="8000" />
+		<ctl name="ABOX Sampling Rate Inmux1" value="8000" />
 	</path>
 
 	<path name="set-bt-sco-tx-rate-nb">
+		<ctl name="ABOX Sampling Rate Out2" value="8000" />
+		<ctl name="ABOX Sampling Rate Inmux0" value="8000" />
+		<ctl name="ABOX Sampling Rate Inmux1" value="8000" />
 	</path>
 
 	<path name="set-bt-sco-rx-rate-wb">
+		<ctl name="ABOX Sampling Rate Out2" value="16000" />
+		<ctl name="ABOX Sampling Rate Inmux0" value="16000" />
+		<ctl name="ABOX Sampling Rate Inmux1" value="16000" />
 	</path>
 
 	<path name="set-bt-sco-tx-rate-wb">
+		<ctl name="ABOX Sampling Rate Out2" value="16000" />
+		<ctl name="ABOX Sampling Rate Inmux0" value="16000" />
+		<ctl name="ABOX Sampling Rate Inmux1" value="16000" />
 	</path>
 
 	<!-- Set uhqa sampling rate -->

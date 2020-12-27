@@ -791,6 +791,8 @@ on boot
     chown system mtp /dev/usb_mtp_gadget
     mkdir /dev/socket/mtp 0770 system mtp
 
+    chown system system /sys/class/sec/tsp/cmd
+
 on property:sys.boot_completed=1
     swapon_all /system/etc/fstab.enableswap
     mkdir /data/misc/pageboost 0771 system system

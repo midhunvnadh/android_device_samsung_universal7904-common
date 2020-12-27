@@ -27,6 +27,10 @@ PRODUCT_PACKAGES += \
     init.usb_accessory.rc \
     fstab.enableswap
 
+# Keylayout
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/keylayout/touchpanel.kl:system/usr/keylayout/touchpanel.kl
+
 # NFC
 PRODUCT_PACKAGES += \
     libnfc-nci \
